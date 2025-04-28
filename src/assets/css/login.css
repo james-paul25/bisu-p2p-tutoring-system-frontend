@@ -1,0 +1,116 @@
+
+
+  body, html {
+    overflow: hidden; 
+    height: 100%; 
+  }
+  
+  body {
+    background-image: url('../css/bisu.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px; 
+    background-color: transparent;
+  }
+  
+  .login-page {
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px; 
+    background-color: transparent;
+  }
+  
+  .login-form {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-style: solid;
+    border-color: #524fe8;
+    border-width: 2px;
+    width: 250px;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+  }
+
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #524fe8;
+  }
+
+  .form-field {
+    margin-bottom: 20px;
+  }
+
+  .login-btn {
+    border: none;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.5s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #004aad;
+    transition: all 0.5s ease;
+  }
+  
+.forgot-password,
+.register {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot-password p,
+.register p {
+  font-size: 14px;
+  color: #524fe8;
+  margin: 5px 0;
+}
+
+.forgot-password p:hover,
+.register p a:hover {
+  color: #524fe8;
+  cursor: pointer;
+}
+
+.register a {
+  font-weight: bold;
+  color: #524fe8;
+  text-decoration: none;
+  transition: all 0.3s ease; 
+}
+
+.register a:hover {
+  color:#524fe8;
+  text-decoration: underline;
+}
+
+.forgot-password p {
+  font-weight: bold;
+  color: #524fe8;
+  text-decoration: none;
+  transition: all 0.3s ease; 
+}
+
+.forgot-password p:hover {
+  color:#524fe8;
+  text-decoration: underline; 
+}
+
